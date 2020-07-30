@@ -1,0 +1,14 @@
+{
+  "python.pythonPath": "env/bin/python",
+  "python.autoComplete.addBrackets": true,
+  "python.linting.enabled": true,
+  "python.languageServer": "Microsoft",
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length", "120", "--experimental"],
+  "python.formatting.autopep8Path": "env/bin/autopep8",
+  "[python]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+}
