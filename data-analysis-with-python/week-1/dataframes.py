@@ -3,7 +3,7 @@ import pandas as pd
 
 ### Importing and exporting
 url = "http://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data"
-df = pd.read_csv('url', header=None)
+df = pd.read_csv(url, header=None)
 headers = [
     "symboling",
     "normalized_losses",
