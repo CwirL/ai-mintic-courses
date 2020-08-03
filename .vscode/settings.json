@@ -1,3 +1,16 @@
 {
-  "python.pythonPath": "data-analysis-with-python/env/bin/activate"
+  "python.pythonPath": "C:\\Users\\willc\\mintic-courses\\env\\python.exe",
+  "python.autoComplete.addBrackets": true,
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Path": "env\\Scripts\\autopep8",
+    "python.formatting.autopep8Args": [
+      "--max-line-length",
+      "120",
+      "--experimental"
+    ],
+  "[python]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  }
 }
